@@ -13,10 +13,14 @@
 // Answer :
 package soal
 func Smash(words []string) string {
-	var text string
+	var text = "'"
 	for i := 0; i < len(words); i++ {
-		text += words[i] + " "
+		text += words[i]
+		if i != len(words)-1 {
+			text += " "
+		}
 	}
+	text += "'"
 	return text
 }
 
