@@ -23,6 +23,8 @@ func Zero_fuel(distanceToPump, mpg, fuelLeft int) bool {
 	}
 }
 
+// Done
+
 // *note, yang asli pakai cpp, pakai go ga ada tapi tetep dipaksa
 // bool zero_fuel(uint32_t distance_to_pump, uint32_t mpg, uint32_t fuel_left)
 // {
