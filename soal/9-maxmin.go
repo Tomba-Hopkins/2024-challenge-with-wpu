@@ -106,3 +106,27 @@ func min(arr []int) int {
 // 	}
 // 	return maxVal
 //   }
+
+
+// Versi c++ :
+// int min(vector<int> list){
+//     int left = list[0];
+//     for (int i = 1; i < list.size(); i++){
+//       int right = list[i];
+//       if (right < left){
+//         left = right;
+//       }
+//     }
+//     return left;
+// }
+
+// int max(vector<int> list){
+//     int left = list[0];
+//     for (int i = 1; i < list.size(); i++){
+//       int right = list[i];
+//       if (right > left){
+//         left = right;
+//       }
+//     }
+//     return left;
+// }
