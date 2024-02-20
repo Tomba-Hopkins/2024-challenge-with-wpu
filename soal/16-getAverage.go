@@ -27,3 +27,12 @@ func getAverage(marks []int) int {
 // Done
 
 // aslinya pake js, versi js :
+// function getAverage(marks){
+// 	let result = 0
+// 	for (let i = 0; i < marks.length; i++) {
+// 	  result += marks[i]
+// 	}
+// 	result /= marks.length 
+// 	  result = Math.floor(result);	
+// 	return result;
+//   }
