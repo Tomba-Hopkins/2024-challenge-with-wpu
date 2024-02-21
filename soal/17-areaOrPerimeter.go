@@ -1,5 +1,5 @@
 // WPU Coding challenge
-// 16/366
+// 17/366
 
 // Question :
 // You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
