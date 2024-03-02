@@ -15,7 +15,7 @@
 // Answer :
 package soal
 
-func sumArray(arr []int) int {
+func SumArray(arr []int) int {
 	if arr == nil || len(arr) <= 2 {
 		return 0
 	}

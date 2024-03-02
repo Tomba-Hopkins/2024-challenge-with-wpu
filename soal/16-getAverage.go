@@ -14,7 +14,7 @@ package soal
 
 import "math"
 
-func getAverage(marks []int) int {
+func GetAverage(marks []int) int {
 	var result int
 	for _, mark := range marks {
 		result += mark

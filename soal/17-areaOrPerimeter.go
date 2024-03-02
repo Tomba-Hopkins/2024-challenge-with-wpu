@@ -15,7 +15,7 @@
 // Answer :
 package soal
 
-func areaOrPerimeter(w, l int) int {
+func AreaOrPerimeter(w, l int) int {
 	if w == l {
 		return w * l
 	} else {

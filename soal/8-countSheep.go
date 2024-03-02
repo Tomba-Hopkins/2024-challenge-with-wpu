@@ -18,7 +18,7 @@ import (
 	"strconv"
 )
 
-func countSheep(num int) string {
+func CountSheep(num int) string {
   var result string
 	for i := 1; i <= num; i++ {
 		temp :=  strconv.Itoa(i)

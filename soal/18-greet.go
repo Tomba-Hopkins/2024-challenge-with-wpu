@@ -11,7 +11,7 @@
 // Answer :
 package soal
 
-func greet(name, owner string) string {
+func Greet(name, owner string) string {
 	if name == owner {
 		return "Hello boss"
 	} else {

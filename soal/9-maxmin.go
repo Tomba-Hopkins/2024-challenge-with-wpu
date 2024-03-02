@@ -48,7 +48,7 @@ package soal
 // }
 
 // Ternyata gini : revisi :
-func max(arr []int) int {
+func Max(arr []int) int {
 
 	if len(arr) == 1 {
 		return arr[0]
@@ -66,7 +66,7 @@ func max(arr []int) int {
 	return result
 }
 
-func min(arr []int) int {
+func Min(arr []int) int {
 
 	if len(arr) == 1 {
 		return arr[0]

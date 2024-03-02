@@ -9,7 +9,7 @@
 // Answer :
 package soal
 
-func arrayPlusArray(array1 []int, array2 []int) int {
+func ArrayPlusArray(array1 []int, array2 []int) int {
 	result := 0
 	for _, arr1 := range array1 {
 		result += arr1
