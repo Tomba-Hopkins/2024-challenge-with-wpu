@@ -1,5 +1,5 @@
 // WPU Coding challenge
-// 24/366
+// 25/366
 
 // Question :
 
@@ -20,3 +20,12 @@ func DoubleChar(text string) (result string) {
 	}
 	return
 }
+
+// aslinya pake js go nya ga ada : 
+// function doubleChar(str) {
+// 	let res = '';
+// 	for (let i=0; i < str.length; i++) {
+// 	  res += str[i] + str[i];
+// 	}
+// 	return res;
+//   }
