@@ -10,7 +10,7 @@
 // Answer :
 package soal
 
-func updateLight(current string) string {
+func UpdateLight(current string) string {
 	switch {
 	case current == "red":
 		return "green"
